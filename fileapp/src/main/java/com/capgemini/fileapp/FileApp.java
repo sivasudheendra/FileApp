@@ -20,6 +20,10 @@ public class FileApp implements CommandLineRunner{
 	public static void main(String[] args) {
 		SpringApplication.run(FileApp.class, args);
 	}
+	
+	/**
+	 * Running test cases by overriding the run method
+	 */
 	@Override
 	public void run(String... args) {
 	

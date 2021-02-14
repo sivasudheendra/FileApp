@@ -46,6 +46,8 @@ public class FileAppServiceImpl implements IFileAppService {
 	 * This is the main method which is used to create CSV and XML files by 
 	 * parsing the Text.
 	 * 
+	 * Note: File Paths should be changed in the application.properties file
+	 * which running in respective local machines
 	 */
 	@Override
 	public void parseAndCreateFiles() {
@@ -182,7 +184,7 @@ public class FileAppServiceImpl implements IFileAppService {
 					}
 
 					//System.out.println("wordarrinserted:" + word);
-					words[i] = word;
+					words[i] = word.replaceAll("\\W", "");
 					i++;
 				}
 			}
