@@ -1,0 +1,104 @@
+[INFO ] 15-02-2021 12:43:33.493 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 17740 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 12:43:33.498 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 12:43:33.499 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 12:43:34.323 AM [main] FileApp - Started FileApp in 1.152 seconds (JVM running for 2.218)
+[DEBUG] 15-02-2021 12:43:34.324 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 12:43:34.325 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 12:43:34.334 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 12:43:34.341 AM [main] FileAppServiceImpl - Sentences size:12
+[INFO ] 15-02-2021 12:43:34.344 AM [main] FileAppServiceImpl - Creating CSV File..
+[INFO ] 15-02-2021 12:43:34.348 AM [main] FileAppServiceImpl - CSV File Created in path:C:\EclipseWorkspace\OutPutFiles\output.csv
+[INFO ] 15-02-2021 12:43:34.348 AM [main] FileAppServiceImpl - Creating XML File..
+[INFO ] 15-02-2021 12:43:34.515 AM [main] FileAppServiceImpl - XML FIle created in the Path:C:\EclipseWorkspace\OutPutFiles\output.xml
+[INFO ] 15-02-2021 01:33:55.541 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 17872 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:33:55.545 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:33:55.546 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:33:56.470 AM [main] FileApp - Started FileApp in 1.304 seconds (JVM running for 2.701)
+[DEBUG] 15-02-2021 01:33:56.473 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:33:56.473 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:33:56.474 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:33:56.481 AM [main] FileAppServiceImpl - Sentences size:12
+[INFO ] 15-02-2021 01:33:56.486 AM [main] FileAppServiceImpl - Creating CSV File..
+[ERROR] 15-02-2021 01:33:56.491 AM [main] FileAppServiceImpl - IOException occured in the method parseAndCreateFiles:C:\EclipseWorkspace\OutPutFiles\output.csv (The process cannot access the file because it is being used by another process)
+[INFO ] 15-02-2021 01:34:24.210 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 13396 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:34:24.217 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:34:24.218 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:34:24.931 AM [main] FileApp - Started FileApp in 1.009 seconds (JVM running for 2.182)
+[DEBUG] 15-02-2021 01:34:24.934 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:34:24.934 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:34:24.934 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:34:24.951 AM [main] FileAppServiceImpl - Sentences size:12
+[INFO ] 15-02-2021 01:34:24.954 AM [main] FileAppServiceImpl - Creating CSV File..
+[INFO ] 15-02-2021 01:34:24.958 AM [main] FileAppServiceImpl - CSV File Created in path:C:\EclipseWorkspace\OutPutFiles\output.csv
+[INFO ] 15-02-2021 01:34:24.958 AM [main] FileAppServiceImpl - Creating XML File..
+[INFO ] 15-02-2021 01:34:25.197 AM [main] FileAppServiceImpl - XML FIle created in the Path:C:\EclipseWorkspace\OutPutFiles\output.xml
+[INFO ] 15-02-2021 01:35:13.619 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 25924 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:35:13.623 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:35:13.624 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:35:14.396 AM [main] FileApp - Started FileApp in 1.075 seconds (JVM running for 2.393)
+[DEBUG] 15-02-2021 01:35:14.398 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:35:14.398 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:35:14.398 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:35:14.402 AM [main] FileAppServiceImpl - Sentences size:3
+[INFO ] 15-02-2021 01:35:14.405 AM [main] FileAppServiceImpl - Creating CSV File..
+[INFO ] 15-02-2021 01:35:14.410 AM [main] FileAppServiceImpl - CSV File Created in path:C:\EclipseWorkspace\OutPutFiles\output.csv
+[INFO ] 15-02-2021 01:35:14.410 AM [main] FileAppServiceImpl - Creating XML File..
+[INFO ] 15-02-2021 01:35:14.610 AM [main] FileAppServiceImpl - XML FIle created in the Path:C:\EclipseWorkspace\OutPutFiles\output.xml
+[INFO ] 15-02-2021 01:38:14.780 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 26388 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:38:14.784 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:38:14.785 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:38:15.462 AM [main] FileApp - Started FileApp in 0.967 seconds (JVM running for 2.11)
+[DEBUG] 15-02-2021 01:38:15.464 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:38:15.465 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:38:15.465 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:38:15.468 AM [main] FileAppServiceImpl - Sentences size:3
+[INFO ] 15-02-2021 01:38:15.470 AM [main] FileAppServiceImpl - Creating CSV File..
+[ERROR] 15-02-2021 01:38:15.475 AM [main] FileAppServiceImpl - IOException occured in the method parseAndCreateFiles:C:\EclipseWorkspace\OutPutFiles\output.csv (The process cannot access the file because it is being used by another process)
+[INFO ] 15-02-2021 01:38:23.417 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 6820 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:38:23.421 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:38:23.422 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:38:24.087 AM [main] FileApp - Started FileApp in 0.968 seconds (JVM running for 2.075)
+[DEBUG] 15-02-2021 01:38:24.088 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:38:24.089 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:38:24.089 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:38:24.092 AM [main] FileAppServiceImpl - Sentences size:3
+[INFO ] 15-02-2021 01:38:24.100 AM [main] FileAppServiceImpl - Creating CSV File..
+[INFO ] 15-02-2021 01:38:24.104 AM [main] FileAppServiceImpl - CSV File Created in path:C:\EclipseWorkspace\OutPutFiles\output.csv
+[INFO ] 15-02-2021 01:38:24.104 AM [main] FileAppServiceImpl - Creating XML File..
+[INFO ] 15-02-2021 01:38:24.262 AM [main] FileAppServiceImpl - XML FIle created in the Path:C:\EclipseWorkspace\OutPutFiles\output.xml
+[INFO ] 15-02-2021 01:43:59.897 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 19032 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:43:59.905 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:43:59.908 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:44:01.220 AM [main] FileApp - Started FileApp in 1.904 seconds (JVM running for 3.35)
+[DEBUG] 15-02-2021 01:44:01.224 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:44:01.225 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:44:01.225 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:44:01.233 AM [main] FileAppServiceImpl - Sentences size:3
+[INFO ] 15-02-2021 01:44:01.239 AM [main] FileAppServiceImpl - Creating CSV File..
+[INFO ] 15-02-2021 01:44:01.249 AM [main] FileAppServiceImpl - CSV File Created in path:C:\EclipseWorkspace\OutPutFiles\output.csv
+[INFO ] 15-02-2021 01:44:01.249 AM [main] FileAppServiceImpl - Creating XML File..
+[INFO ] 15-02-2021 01:44:01.527 AM [main] FileAppServiceImpl - XML FIle created in the Path:C:\EclipseWorkspace\OutPutFiles\output.xml
+[INFO ] 15-02-2021 01:45:59.709 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 15040 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:45:59.712 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:45:59.713 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:46:00.424 AM [main] FileApp - Started FileApp in 1.003 seconds (JVM running for 2.052)
+[DEBUG] 15-02-2021 01:46:00.427 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:46:00.427 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:46:00.427 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:46:00.431 AM [main] FileAppServiceImpl - Sentences size:3
+[INFO ] 15-02-2021 01:46:00.433 AM [main] FileAppServiceImpl - Creating CSV File..
+[INFO ] 15-02-2021 01:46:00.436 AM [main] FileAppServiceImpl - CSV File Created in path:C:\EclipseWorkspace\OutPutFiles\output.csv
+[INFO ] 15-02-2021 01:46:00.436 AM [main] FileAppServiceImpl - Creating XML File..
+[INFO ] 15-02-2021 01:46:00.572 AM [main] FileAppServiceImpl - XML FIle created in the Path:C:\EclipseWorkspace\OutPutFiles\output.xml
+[INFO ] 15-02-2021 01:47:11.004 AM [main] FileApp - Starting FileApp using Java 15.0.2 on LIN80022529 with PID 26148 (C:\Users\smaseedu\git\FileApp\fileapp\target\classes started by smaseedu in C:\Users\smaseedu\git\FileApp\fileapp)
+[DEBUG] 15-02-2021 01:47:11.008 AM [main] FileApp - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 15-02-2021 01:47:11.009 AM [main] FileApp - No active profile set, falling back to default profiles: default
+[INFO ] 15-02-2021 01:47:11.826 AM [main] FileApp - Started FileApp in 1.121 seconds (JVM running for 2.22)
+[DEBUG] 15-02-2021 01:47:11.828 AM [main] FileAppServiceImpl - Entered parseAndCreateFiles Method..
+[INFO ] 15-02-2021 01:47:11.829 AM [main] FileAppServiceImpl - applicationConfig::ApplicationConfig [inputfilename=C:\EclipseWorkspace\InputFiles\small.in, outxmlfilename=C:\EclipseWorkspace\OutPutFiles\output.xml, outputcsvfilename=C:\EclipseWorkspace\OutPutFiles\output.csv]
+[INFO ] 15-02-2021 01:47:11.829 AM [main] FileAppServiceImpl - Reading File:C:\EclipseWorkspace\InputFiles\small.in
+[INFO ] 15-02-2021 01:47:11.838 AM [main] FileAppServiceImpl - Sentences size:12
+[INFO ] 15-02-2021 01:47:11.842 AM [main] FileAppServiceImpl - Creating CSV File..
+[INFO ] 15-02-2021 01:47:11.846 AM [main] FileAppServiceImpl - CSV File Created in path:C:\EclipseWorkspace\OutPutFiles\output.csv
+[INFO ] 15-02-2021 01:47:11.847 AM [main] FileAppServiceImpl - Creating XML File..
+[INFO ] 15-02-2021 01:47:12.012 AM [main] FileAppServiceImpl - XML FIle created in the Path:C:\EclipseWorkspace\OutPutFiles\output.xml
