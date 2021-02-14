@@ -7,7 +7,12 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 
-
+/**
+ * @author sivasudheendra
+ * 
+ * Domain Class
+ *
+ */
 @XmlRootElement(name = "sentence")
 public class Sentence {
 	

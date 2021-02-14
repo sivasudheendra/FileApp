@@ -2,7 +2,12 @@ package com.capgemini.fileapp.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
-
+/**
+ * @author sivasudheendra
+ * Configuration class for loading the properties from the file
+ * application.properties
+ *
+ */
 @Configuration
 public class ApplicationConfig {
 	

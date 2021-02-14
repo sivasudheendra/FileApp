@@ -28,6 +28,13 @@ import com.capgemini.fileapp.vobs.Sentence;
 import com.capgemini.fileapp.vobs.Text;
 import com.opencsv.CSVWriter;
 
+/**
+ * @author sivasudheendra
+ * This is a Implementation Class which parses the Text File and Create a 
+ * CSV and XML output file. opencsv lib is used for csv file generation.
+ * jaxb-api for XML file generation.
+ *
+ */
 @Service
 public class FileAppServiceImpl implements IFileAppService {
 	private static final Logger LOGGER = LogManager.getLogger(FileAppServiceImpl.class);
@@ -35,6 +42,11 @@ public class FileAppServiceImpl implements IFileAppService {
 	@Autowired
 	ApplicationConfig applicationConfig;
 
+	/**
+	 * This is the main method which is used to create CSV and XML files by 
+	 * parsing the Text.
+	 * 
+	 */
 	@Override
 	public void parseAndCreateFiles() {
 		// TODO Auto-generated method stub
@@ -80,7 +92,12 @@ public class FileAppServiceImpl implements IFileAppService {
 		}
 
 	}
-
+	/**
+	 * This is the  method which contain business logic to parse the lines and create the 
+	 * Formatted Sentences
+	 * 
+	 * @return Formatted Sentences
+	 */
 	public List<String> getFormattedSentences(List<String> lines) {
 
 		List<String> formattedLines = new ArrayList<String>();
@@ -118,6 +135,12 @@ public class FileAppServiceImpl implements IFileAppService {
 		return sentences;
 	}
 
+	/**
+	 * This is the  method which contain business logic to parse the sentences and create the 
+	 * Words
+	 * 
+	 * @return Map which contains array of Words
+	 */
 	public Map<Sentence, String[]> getFormattedWords(List<String> sentences) {
 		int count = 0;
 		Map<Sentence, String[]> map = new LinkedHashMap<Sentence, String[]>();
@@ -171,7 +194,11 @@ public class FileAppServiceImpl implements IFileAppService {
 		}
 		return map;
 	}
-
+	/**
+	 * This is the  method which is used to set the Vobs for XML creation
+	 * 
+	 * @return Text VOB which will be sent to Jaxb-Api for XML creation
+	 */
 	public Text setXmlVobs(Map<Sentence, String[]> result) {
 
 		Text text = new Text();

@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 import com.capgemini.fileapp.service.FileAppServiceImpl;
-
+/**
+ * @author sivasudheendra
+ *	Main Class where Application Starts
+ *
+ */
 @SpringBootApplication(exclude=DataSourceAutoConfiguration.class)
 public class FileApp implements CommandLineRunner{
 
