@@ -23,6 +23,8 @@ public class FileApp implements CommandLineRunner{
 	
 	/**
 	 * Running test cases by overriding the run method
+	 * Note: Please provide the correct Input/Output File Paths before running the 
+	 * Application.
 	 */
 	@Override
 	public void run(String... args) {
